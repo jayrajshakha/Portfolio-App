@@ -1,7 +1,7 @@
 
 import React from 'react';
 import ExpenseImage from '../../public/assets/projects/expense.jpeg'
-import it from '../../public/assets/projects/netflix.jpg'
+import snap from '../../public/assets/projects/snap2.png'
 import jovials from '../../public/assets/projects/jovials.jpeg'
 
 import ProjectItem from './ProjectItems';
@@ -24,11 +24,19 @@ const Projects = () => {
 
           />
            <ProjectItem
-            title='Expense Tracker App'
-            backgroundImg={it}
-            projectUrl='/crypto'
+            title='Snapgram Chat App'
+            backgroundImg={snap}
+            projectUrl= '/snapgram'
             tech='React JS'
           />
+           <ProjectItem
+            title='Expense Tracker App'
+            backgroundImg={jovials}
+            projectUrl='/crypto'
+            tech='React JS'
+
+          />
+          
            <ProjectItem
             title='Expense Tracker App'
             backgroundImg={jovials}

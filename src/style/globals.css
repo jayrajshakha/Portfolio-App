@@ -12,7 +12,7 @@ html {
 
 @layer base {
   body {
-    @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide
+    @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide custom-scrollbar
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -34,4 +34,27 @@ html {
   button {
     @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white
   }
+}
+
+@layer utilities{
+   
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    border-radius: 0;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    border-radius: 50px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+  }
+
 }
