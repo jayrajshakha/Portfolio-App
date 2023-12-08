@@ -29,7 +29,7 @@ const Skills = () => {
     <div id="skills" className="w-full lg:h-screen  p-2">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <div className="md:h-14">
-           <h1> </h1>
+          <h1> </h1>
         </div>
         <h2 className="py-4 md:mt-4">Skills ~ What can i do</h2>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">

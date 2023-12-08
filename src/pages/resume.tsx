@@ -52,15 +52,14 @@ const resume = () => {
           </div>
         </div>
         <p>
-          Analytical, innovative, and motivated web development professional
-          with experience in customer service, team leadership, and
-          organizational effectiveness in fast-paced and challenging
-          environments. Adept at developing strategies and driving streamlined
-          operations. Diverse analytical skills, team collaboration, and
-          relationship building. Consummate professional, and motivated leader,
-          with solid interpersonal abilities and complex problem-solving skills.
-          Effective and proven track record of critical thinking, idea
-          generation, and optimizing efficiencies.
+          A Front-End Developer with entry-level experience specializing in web
+          development, user interface design, HTML, CSS and React JS. Adept at
+          identifying opportunities to enhance front-end design and improve the
+          user experience. Logical and results-driven Web Developer dedicated to
+          building and optimizing user-focused websites for customers with
+          various business objectives. Judicious and creative when crafting
+          effective websites, apps and platforms to propel competitive advantage
+          and revenue growth..
         </p>
 
         {/* Skills */}
@@ -85,29 +84,36 @@ const resume = () => {
         {/* Experience */}
         <div className="py-6">
           <p className="italic">
-            <span className="font-bold italic">Frontend Technologies :</span>
+            <span className="font-bold italic">Projects</span>
             <span className="px-2">|</span>React JS
           </p>
-          <p className="py-1 italic">Front End Web Developer ~</p>
+          <p className="py-1 italic">Chat App ~</p>
           <p>
-            Despite my relatively short time in the field, I&apos;ve developed a
-            deep command of HTML5, CSS3, and JavaScript, and I&apos;m
-            well-versed in modern frontend libraries and frameworks like React.
-            My early projects showcase responsive web designs that are not only
-            visually stunning but also optimized for performance.
+            i build a Real time chat app using React js and Typescript also use
+            tailwind css for styling, for state managment i use Zustand and
+            context Api, for backend i used Appwrite Cloud
           </p>
         </div>
 
         {/* Personal Experience */}
         <div className="py-6">
           <p className="italic">
-            <span className="font-bold italic">Professional Journey</span>
-            <span className="px-2">|</span> India
+            <span className="font-bold italic">Projects</span>
           </p>
-          <p className="py-1 italic">Fresher ~ </p>
+          <p className="py-1 italic">Expense Tracker App</p>
           <p>
-            My journey has been marked by a commitment to excellence, a hunger
-            for knowledge, and a drive to make a meaningful impact through code.
+            I built an expense tracker app using React JS and Tailwind. I have
+            also added functionality like add, delete, update, and responsive.
+          </p>
+        </div>
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold italic">Learnin Projects</span>
+          </p>
+          <p className="py-1 italic">Other Projects</p>
+          <p>
+            i build a Crypto App using redux tk also build a shoping Cart and
+            Api fetchimg projects for learning Perposed.
           </p>
         </div>
 
@@ -126,7 +132,10 @@ const resume = () => {
             Let&apos;s build the web of the future together!
           </p>
         </div>
-        <Link href={'/'}> <button className="p-2">go back home</button></Link>
+        <Link href={"/"}>
+          {" "}
+          <button className="p-2">go back home</button>
+        </Link>
       </div>
     </>
   );

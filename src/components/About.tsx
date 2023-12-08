@@ -21,43 +21,44 @@ const About = () => {
             your digital projects to the next level.
             <br />
             <br />
-            👨‍🏫Professional Journey 
+            👨‍🏫Professional Journey
             <br />
-            Fresher; My journey has been marked by a commitment to
-            excellence, a hunger for knowledge, and a drive to make a meaningful
-            impact through code.
+            Fresher; My journey has been marked by a commitment to excellence, a
+            hunger for knowledge, and a drive to make a meaningful impact
+            through code.
             <br />
             <br />
-            💥Expertise 
+            💥Expertise
             <br />
-             Frontend Technologies: Despite my relatively short
-            time in the field, I&apos;ve developed a deep command of HTML5,
-            CSS3, and JavaScript, and I&apos;m well-versed in modern frontend
-            libraries and frameworks like React. My early projects showcase
-            responsive web designs that are not only visually stunning but also
-            optimized for performance.
+            Frontend Technologies: Despite my relatively short time in the
+            field, I&apos;ve developed a deep command of HTML5, CSS3, and
+            JavaScript, and I&apos;m well-versed in modern frontend libraries
+            and frameworks like React. My early projects showcase responsive web
+            designs that are not only visually stunning but also optimized for
+            performance.
             <br />
           </p>
           <p className="py-2 lg:inline-block text-gray-600">
-            🌏Let&apos;s Connect 
+            🌏Let&apos;s Connect
             <br />
-             I&apos;m excited about the opportunities to
-            connect with like-minded professionals, share knowledge, and explore
-            potential collaborations. Whether you&apos;re interested in
-            discussing the latest web technologies, need advice on a frontend
-            challenge <span className="md:hidden lg:inline-block"> or want to explore potential partnerships, feel free to
-            reach out. Let&apos;s build the web of the future together!</span>
+            I&apos;m excited about the opportunities to connect with like-minded
+            professionals, share knowledge, and explore potential
+            collaborations. Whether you&apos;re interested in discussing the
+            latest web technologies, need advice on a frontend challenge{" "}
+            <span className="md:hidden lg:inline-block">
+              {" "}
+              or want to explore potential partnerships, feel free to reach out.
+              Let&apos;s build the web of the future together!
+            </span>
             <br />
             <br />
-          <span className=" md:hidden lg:hidden xl:flex ">
-          Thank you for visiting my profile. Let&apos;s connect, and together,
-            we can create extraordinary digital experiences that leave a lasting
-            impact.
-          </span>
+            <span className=" md:hidden lg:hidden xl:flex ">
+              Thank you for visiting my profile. Let&apos;s connect, and
+              together, we can create extraordinary digital experiences that
+              leave a lasting impact.
+            </span>
           </p>
-          <Link 
-          className="md:hidden "
-          href="/#projects">
+          <Link className="md:hidden " href="/#projects">
             <p className="py-2 font-bold text-gray-600 underline cursor-pointer">
               Check out some of my latest projects.
             </p>

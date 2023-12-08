@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
@@ -10,7 +10,6 @@ import NavLogo from "../../public/assets/logo.png";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-
 
   const handleNav = () => {
     setNav(!nav);
@@ -47,7 +46,7 @@ const Navbar = () => {
         </Link>
 
         <div>
-          <ul  className="hidden md:flex text-[#1f2937]">
+          <ul className="hidden md:flex text-[#1f2937]">
             <li className="ml-10 text-sm uppercase hover:border-b">
               <Link href="/">Home</Link>
             </li>
@@ -68,10 +67,7 @@ const Navbar = () => {
             </li>
           </ul>
           {/* Hamburger Icon */}
-          <div
-            onClick={handleNav}
-            className="md:hidden text-[#1f2937]"
-          >
+          <div onClick={handleNav} className="md:hidden text-[#1f2937]">
             <AiOutlineMenu size={25} />
           </div>
         </div>
