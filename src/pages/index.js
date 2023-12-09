@@ -14,7 +14,10 @@ export default function Home() {
           name="description"
           content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences."
         />
-        <link rel="icon" href="/../../public/assets/logo.png" />
+        <link
+          rel="icon"
+          href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7r9AqwR2YWPLBoQ7kB8NLuEXfIqMAx2WtOA&usqp=CAU"
+        />
       </Head>
       <Main />
       <About />

@@ -3,7 +3,6 @@ const nextConfig = {
     reactStrictMode: true,
     outputFileTracing : true,
     distDir: 'dist',
-    output: 'export',
 }
 
 module.exports = nextConfig
