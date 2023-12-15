@@ -16,7 +16,7 @@ export default function Home() {
         />
         <link
           rel="icon"
-          href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7r9AqwR2YWPLBoQ7kB8NLuEXfIqMAx2WtOA&usqp=CAU"
+          href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgSRxUVh5oMgJmcnpRxmWZShW1LDLhnngCeA&usqp=CAU"
         />
       </Head>
       <Main />
