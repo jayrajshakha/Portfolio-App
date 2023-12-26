@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/XqHoh5whtZfgLXgDv3gUR/_buildManifest.js",
-    "static/XqHoh5whtZfgLXgDv3gUR/_ssgManifest.js"
+    "static/RiM3CisCqQ1BwWDuWtdup/_buildManifest.js",
+    "static/RiM3CisCqQ1BwWDuWtdup/_ssgManifest.js"
   ],
   "rootMainFiles": [
     "static/chunks/webpack-b969fdd42c6e01a9.js",
@@ -19,7 +19,7 @@
       "static/chunks/framework-bf616f3acd1080c7.js",
       "static/chunks/main-0d9af847195ac74f.js",
       "static/chunks/d64684d8-862700703f8fc110.js",
-      "static/chunks/pages/index-427263543f4a2e34.js"
+      "static/chunks/pages/index-4261dd607c26c546.js"
     ],
     "/_app": [
       "static/chunks/webpack-b969fdd42c6e01a9.js",
@@ -33,6 +33,13 @@
       "static/chunks/framework-bf616f3acd1080c7.js",
       "static/chunks/main-0d9af847195ac74f.js",
       "static/chunks/pages/_error-2508d473353f2cb2.js"
+    ],
+    "/eco": [
+      "static/chunks/webpack-b969fdd42c6e01a9.js",
+      "static/chunks/framework-bf616f3acd1080c7.js",
+      "static/chunks/main-0d9af847195ac74f.js",
+      "static/chunks/78e521c3-e90d0a95316fd1a6.js",
+      "static/chunks/pages/eco-5c2ff9f068b99c11.js"
     ],
     "/expense": [
       "static/chunks/webpack-b969fdd42c6e01a9.js",
@@ -52,7 +59,7 @@
       "static/chunks/framework-bf616f3acd1080c7.js",
       "static/chunks/main-0d9af847195ac74f.js",
       "static/chunks/78e521c3-e90d0a95316fd1a6.js",
-      "static/chunks/pages/snapgram-bfc901fd30b71865.js"
+      "static/chunks/pages/snapgram-d15a7c76d766e80a.js"
     ]
   },
   "ampFirstPages": []

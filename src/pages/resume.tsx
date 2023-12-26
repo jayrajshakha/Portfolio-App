@@ -26,7 +26,7 @@ const resume = () => {
               rel="noreferrer"
               title="linkedin"
             >
-              <FaLinkedinIn size={20} style={{ marginRight: "1rem" }} />
+              <FaLinkedinIn size={20} style={{ margininset-inline-end: "1rem" }} />
             </a>
             <a
               href="https://github.com/jayrajshakha"
@@ -34,7 +34,7 @@ const resume = () => {
               rel="noreferrer"
               title="github"
             >
-              <FaGithub size={20} style={{ marginRight: "1rem" }} />
+              <FaGithub size={20} style={{ margininset-inline-end: "1rem" }} />
             </a>
           </div>
         </div>

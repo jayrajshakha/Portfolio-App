@@ -29,21 +29,8 @@ const snapgram = () => {
           <p>Snapgarm</p>
           <h2>Overview</h2>
           <p>
-            I built a <b>fantastic group chat app</b> called <b>Snapgarm</b>.
-            <br />
-            using <b>React</b> as your front-end framework, <b>Zustand</b> for state
-            management, and <b>Appwrite Cloud</b> for the backend. 
-            <br />
-            i have also used Tailwind CSS and <b>Next UI</b> for styling, and Toast for
-            notifications. i includes <b>authentication features</b> and a
-            login system written in TypeScript.
-            <br />
-            Snapgram is a powerful and user-friendly group chat app that lets you build communities
-            and chat with your friends. With its sleek design and robust
-            features, Snapgram is the perfect way to stay connected with your
-            loved ones. You can use Snapgram to share your thoughts,
-            exchange ideas, collaborate on projects, and have fun
-            with your friends.🚀🚀
+          I have built a group real time chat app using React JS and TypeScript. The app allows users to send messages and replies, create their own groups, and perform CRUD operations on their data. The app uses Next UI and Tailwind CSS for styling and responsiveness for all types of devices. The app also uses Appwrite Cloud for backend services, such as user authentication, password management, and local storage. The app leverages Zustand and Context API for state management, ensuring a fast and reliable user experience across the app.
+
           </p>
           <a
             href="https://github.com/jayrajshakha/snapgram_chat_app"

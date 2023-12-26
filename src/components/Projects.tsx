@@ -1,6 +1,7 @@
 import React from "react";
 import ExpenseImage from "../../public/assets/projects/expense.jpeg";
 import snap from "../../public/assets/projects/snap2.png";
+import eco from "../../public/assets/projects/ecco.png";
 
 import ProjectItem from "./ProjectItems";
 
@@ -14,24 +15,24 @@ const Projects = () => {
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Expense Tracker App"
-            backgroundImg={ExpenseImage}
-            projectUrl="/expense"
-            tech="React JS"
-          />
-          <ProjectItem
             title="Snapgram Chat App"
             backgroundImg={snap}
             projectUrl="/snapgram"
             tech="React JS"
           />
-          {/* <ProjectItem
-            title='Expense Tracker App'
-            backgroundImg={jovials}
-            projectUrl='/crypto'
-            tech='React JS'
 
-          /> */}
+          <ProjectItem
+            title="E Commerce Web"
+            backgroundImg={eco}
+            projectUrl="/eco"
+            tech="React JS"
+          />
+          <ProjectItem
+            title="Expense Tracker App"
+            backgroundImg={ExpenseImage}
+            projectUrl="/expense"
+            tech="React JS"
+          />
         </div>
       </div>
     </div>
