@@ -19,22 +19,24 @@ const resume = () => {
         <h2 className="text-center">Resume</h2>
         <div className="bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center">
           <h2 className="text-center">Jay Rajshakha</h2>
-          <div className="flex">
+          <div className="flex justify-between">
             <a
+              className="mr-6"
               href="https://www.linkedin.com/in/jayrajshakha01/"
               target="_blank"
               rel="noreferrer"
               title="linkedin"
             >
-              <FaLinkedinIn size={20} style={{ margininset-inline-end: "1rem" }} />
+              <FaLinkedinIn size={20} />
             </a>
             <a
+              className="mr-2"
               href="https://github.com/jayrajshakha"
               target="_blank"
               rel="noreferrer"
               title="github"
             >
-              <FaGithub size={20} style={{ margininset-inline-end: "1rem" }} />
+              <FaGithub size={20} />
             </a>
           </div>
         </div>

@@ -18,9 +18,7 @@ const snapgram = () => {
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <h2 className="py-2">Snapgram Group Chat App</h2>
-          <h3>
-            React JS / Typescript / Zustand / Appwrite Cloud
-          </h3>
+          <h3>React JS / Typescript / Zustand / Appwrite Cloud</h3>
         </div>
       </div>
 
@@ -29,8 +27,15 @@ const snapgram = () => {
           <p>Snapgarm</p>
           <h2>Overview</h2>
           <p>
-          I have built a group real time chat app using React JS and TypeScript. The app allows users to send messages and replies, create their own groups, and perform CRUD operations on their data. The app uses Next UI and Tailwind CSS for styling and responsiveness for all types of devices. The app also uses Appwrite Cloud for backend services, such as user authentication, password management, and local storage. The app leverages Zustand and Context API for state management, ensuring a fast and reliable user experience across the app.
-
+            I have built a group real time chat app using React JS and
+            TypeScript. The app allows users to send messages and replies,
+            create their own groups, and perform CRUD operations on their data.
+            The app uses Next UI and Tailwind CSS for styling and responsiveness
+            for all types of devices. The app also uses Appwrite Cloud for
+            backend services, such as user authentication, password management,
+            and local storage. The app leverages Zustand and Context API for
+            state management, ensuring a fast and reliable user experience
+            across the app.
           </p>
           <a
             href="https://github.com/jayrajshakha/snapgram_chat_app"
